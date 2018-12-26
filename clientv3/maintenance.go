@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"io"
 
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
+	pb "etcd/etcdserver/etcdserverpb"
 
 	"google.golang.org/grpc"
 )

@@ -23,11 +23,11 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/concurrency"
-	"go.etcd.io/etcd/clientv3/leasing"
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/testutil"
+	"etcd/clientv3"
+	"etcd/clientv3/concurrency"
+	"etcd/clientv3/leasing"
+	"etcd/integration"
+	"etcd/pkg/testutil"
 )
 
 func TestLeasingPutGet(t *testing.T) {

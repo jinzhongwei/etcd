@@ -18,7 +18,7 @@ import (
 	"os"
 	"testing"
 
-	"go.etcd.io/etcd/mvcc/backend"
+	"etcd/mvcc/backend"
 	"go.uber.org/zap"
 )
 

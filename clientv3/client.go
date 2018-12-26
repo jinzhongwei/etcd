@@ -30,10 +30,10 @@ import (
 	"github.com/google/uuid"
 
 	"github.com/grpc-ecosystem/go-grpc-middleware/util/backoffutils"
-	"go.etcd.io/etcd/clientv3/balancer"
-	"go.etcd.io/etcd/clientv3/balancer/picker"
-	"go.etcd.io/etcd/clientv3/balancer/resolver/endpoint"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
+	"etcd/clientv3/balancer"
+	"etcd/clientv3/balancer/picker"
+	"etcd/clientv3/balancer/resolver/endpoint"
+	"etcd/etcdserver/api/v3rpc/rpctypes"
 	"go.uber.org/zap"
 
 	"google.golang.org/grpc"

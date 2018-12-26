@@ -20,9 +20,9 @@ import (
 	"sync"
 	"time"
 
-	v3 "go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
-	"go.etcd.io/etcd/pkg/flags"
+	v3 "etcd/clientv3"
+	"etcd/etcdserver/api/v3rpc/rpctypes"
+	"etcd/pkg/flags"
 
 	"github.com/spf13/cobra"
 )

@@ -24,7 +24,7 @@ import (
 	"os/signal"
 	"time"
 
-	"go.etcd.io/etcd/client"
+	"etcd/client"
 
 	"github.com/urfave/cli"
 )

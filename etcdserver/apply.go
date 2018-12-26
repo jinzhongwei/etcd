@@ -21,12 +21,12 @@ import (
 	"sort"
 	"time"
 
-	"go.etcd.io/etcd/auth"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc"
-	"go.etcd.io/etcd/mvcc/mvccpb"
-	"go.etcd.io/etcd/pkg/types"
+	"etcd/auth"
+	pb "etcd/etcdserver/etcdserverpb"
+	"etcd/lease"
+	"etcd/mvcc"
+	"etcd/mvcc/mvccpb"
+	"etcd/pkg/types"
 
 	"github.com/gogo/protobuf/proto"
 	"go.uber.org/zap"

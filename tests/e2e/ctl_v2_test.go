@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/pkg/fileutil"
-	"go.etcd.io/etcd/pkg/testutil"
+	"etcd/pkg/fileutil"
+	"etcd/pkg/testutil"
 )
 
 func TestCtlV2Set(t *testing.T)          { testCtlV2Set(t, &configNoTLS, false) }

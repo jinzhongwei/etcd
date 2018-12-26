@@ -18,8 +18,8 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
+	"etcd/lease"
+	"etcd/mvcc/backend"
 
 	"go.uber.org/zap"
 )

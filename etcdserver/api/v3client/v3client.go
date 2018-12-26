@@ -18,10 +18,10 @@ import (
 	"context"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/etcdserver"
-	"go.etcd.io/etcd/etcdserver/api/v3rpc"
-	"go.etcd.io/etcd/proxy/grpcproxy/adapter"
+	"etcd/clientv3"
+	"etcd/etcdserver"
+	"etcd/etcdserver/api/v3rpc"
+	"etcd/proxy/grpcproxy/adapter"
 )
 
 // New creates a clientv3 client that wraps an in-process EtcdServer. Instead

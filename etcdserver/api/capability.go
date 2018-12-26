@@ -17,7 +17,7 @@ package api
 import (
 	"sync"
 
-	"go.etcd.io/etcd/version"
+	"etcd/version"
 	"go.uber.org/zap"
 
 	"github.com/coreos/go-semver/semver"

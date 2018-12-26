@@ -27,10 +27,10 @@ import (
 	"sort"
 	"strings"
 
-	"go.etcd.io/etcd/embed"
-	"go.etcd.io/etcd/pkg/flags"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/version"
+	"etcd/embed"
+	"etcd/pkg/flags"
+	"etcd/pkg/types"
+	"etcd/version"
 
 	"github.com/ghodss/yaml"
 	"go.uber.org/zap"

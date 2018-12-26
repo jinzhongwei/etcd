@@ -28,13 +28,13 @@ import (
 	"strings"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/snap"
-	"go.etcd.io/etcd/etcdserver/etcdserverpb"
-	"go.etcd.io/etcd/pkg/pbutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft/raftpb"
-	"go.etcd.io/etcd/wal"
-	"go.etcd.io/etcd/wal/walpb"
+	"etcd/etcdserver/api/snap"
+	"etcd/etcdserver/etcdserverpb"
+	"etcd/pkg/pbutil"
+	"etcd/pkg/types"
+	"etcd/raft/raftpb"
+	"etcd/wal"
+	"etcd/wal/walpb"
 
 	"go.uber.org/zap"
 )

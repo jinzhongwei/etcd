@@ -19,7 +19,7 @@ import (
 	"strings"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/expect"
+	"etcd/pkg/expect"
 )
 
 var (

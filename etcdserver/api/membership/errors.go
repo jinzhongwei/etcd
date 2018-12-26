@@ -17,7 +17,7 @@ package membership
 import (
 	"errors"
 
-	"go.etcd.io/etcd/etcdserver/api/v2error"
+	"etcd/etcdserver/api/v2error"
 )
 
 var (

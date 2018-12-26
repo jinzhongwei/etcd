@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"go.etcd.io/etcd/raft/raftpb"
+	"etcd/raft/raftpb"
 )
 
 type cluster struct {

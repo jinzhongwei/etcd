@@ -24,7 +24,7 @@ import (
 	"sort"
 	"sync"
 
-	"go.etcd.io/etcd/pkg/logutil"
+	"etcd/pkg/logutil"
 
 	"github.com/coreos/pkg/capnslog"
 	"go.uber.org/zap"

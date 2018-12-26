@@ -21,7 +21,7 @@ import (
 	"os"
 	"testing"
 
-	"go.etcd.io/etcd/pkg/transport"
+	"etcd/pkg/transport"
 
 	"github.com/ghodss/yaml"
 )

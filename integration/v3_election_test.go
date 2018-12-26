@@ -20,8 +20,8 @@ import (
 	"testing"
 	"time"
 
-	"go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/concurrency"
+	"etcd/clientv3"
+	"etcd/clientv3/concurrency"
 )
 
 // TestElectionWait tests if followers can correctly wait for elections.

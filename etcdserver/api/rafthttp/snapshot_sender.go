@@ -22,11 +22,11 @@ import (
 	"net/http"
 	"time"
 
-	"go.etcd.io/etcd/etcdserver/api/snap"
-	"go.etcd.io/etcd/pkg/httputil"
-	pioutil "go.etcd.io/etcd/pkg/ioutil"
-	"go.etcd.io/etcd/pkg/types"
-	"go.etcd.io/etcd/raft"
+	"etcd/etcdserver/api/snap"
+	"etcd/pkg/httputil"
+	pioutil "etcd/pkg/ioutil"
+	"etcd/pkg/types"
+	"etcd/raft"
 
 	"github.com/dustin/go-humanize"
 	"go.uber.org/zap"

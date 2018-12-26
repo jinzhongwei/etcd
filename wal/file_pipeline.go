@@ -19,7 +19,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"go.etcd.io/etcd/pkg/fileutil"
+	"etcd/pkg/fileutil"
 
 	"go.uber.org/zap"
 )

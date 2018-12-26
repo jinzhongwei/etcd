@@ -15,9 +15,9 @@
 package mvcc
 
 import (
-	"go.etcd.io/etcd/lease"
-	"go.etcd.io/etcd/mvcc/backend"
-	"go.etcd.io/etcd/mvcc/mvccpb"
+	"etcd/lease"
+	"etcd/mvcc/backend"
+	"etcd/mvcc/mvccpb"
 )
 
 type RangeOptions struct {
